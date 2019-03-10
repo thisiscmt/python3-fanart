@@ -52,9 +52,9 @@ class FORMAT(object):
 
 
 class WS(object):
-    MUSIC = 'artist'
-    MOVIE = 'movie'
-    TV = 'series'
+    MUSIC = 'music'
+    MOVIE = 'movies'
+    TV = 'tv'
 
 
 class TYPE(object):
