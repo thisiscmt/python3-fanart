@@ -86,7 +86,7 @@ class Movie(ResourceItem):
     @classmethod
     def from_dict(cls, resource):
         assert len(resource) == 1, 'Bad Format Map'
-        name, resource = resource.items()[0]
+        name, resource = list(resource.items())[0]
         return cls(
             name=name,
             imdbid=resource['imdb_id'],

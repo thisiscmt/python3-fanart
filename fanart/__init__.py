@@ -39,7 +39,7 @@ __doc__ = """
 
 
 def values(obj):
-    return [v for k, v in obj.__dict__.iteritems() if not k.startswith('_')]
+    return [v for k, v in obj.__dict__.items() if not k.startswith('_')]
 
 BASEURL = 'http://api.fanart.tv/webservice'
 
