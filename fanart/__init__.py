@@ -66,6 +66,8 @@ class TYPE(object):
         CHARACTER = 'characterart'
         THUMB = 'tvthumb'
         SEASONTHUMB = 'seasonthumb'
+        SEASONBANNER = 'seasonbanner'
+        SEASONPOSTER = 'seasonposter'
         BACKGROUND = 'showbackground'
         HDLOGO = 'hdtvlogo'
         HDART = 'hdclearart'
