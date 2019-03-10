@@ -6,7 +6,7 @@ wd = os.path.dirname(os.path.abspath(__file__))
 os.chdir(wd)
 sys.path.insert(1, wd)
 
-name = 'python-fanart'
+name = 'python3-fanart'
 pkg = __import__('fanart')
 
 author, email = pkg.__author__.rsplit(' ', 1)
@@ -29,7 +29,7 @@ setup(
     version=version,
     author=author,
     author_email=email,
-    url='http://github.com/z4r/python-fanart',
+    url='http://github.com/opacam/python3-fanart',
     maintainer=author,
     maintainer_email=email,
     description=description,

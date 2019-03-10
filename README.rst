@@ -1,20 +1,20 @@
-=================================
-Python interface to fanart.tv API
-=================================
+=======================================
+Python3 interface to fanart.tv API (v3)
+=======================================
 
-.. image:: https://api.travis-ci.org/z4r/python-fanart.png?branch=master
-   :target: http://travis-ci.org/z4r/python-fanart
+.. image:: https://api.travis-ci.org/opacam/python3-fanart.png?branch=master
+   :target: http://travis-ci.org/opacam/python3-fanart
 
-.. image:: https://coveralls.io/repos/z4r/python-fanart/badge.png?branch=master
-    :target: https://coveralls.io/r/z4r/python-fanart
+.. image:: https://coveralls.io/repos/opacam/python3-fanart/badge.png?branch=master
+    :target: https://coveralls.io/r/opacam/python3-fanart
     
-.. image:: https://pypip.in/v/python-fanart/badge.png
-   :target: https://crate.io/packages/python-fanart/
+.. image:: https://pypip.in/v/python3-fanart/badge.png
+   :target: https://pypi.python.org/pypi/python3-fanart
 
-.. image:: https://pypip.in/d/python-fanart/badge.png
-   :target: https://crate.io/packages/python-fanart/
+.. image:: https://pypip.in/d/python3-fanart/badge.png
+   :target: https://pypi.python.org/pypi/python3-fanart
 
-This package provides a module to interface with the `fanart.tv`_ API.
+This package provides a module to interface with the `fanart.tv`_ API (v3).
 
 .. contents::
     :local:
@@ -25,7 +25,7 @@ Installation
 ============
 Using pip::
 
-    $ pip install git+https://github.com/z4r/python-fanart
+    $ pip install git+https://github.com/opacam/python3-fanart
 
 .. _summary:
 
