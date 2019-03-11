@@ -103,6 +103,7 @@ class LIMIT(object):
     ONE = 1
     ALL = 2
 
+
 FORMAT_LIST = values(FORMAT)
 WS_LIST = values(WS)
 TYPE_LIST = values(TYPE.MUSIC) + values(TYPE.TV) + values(TYPE.MOVIE) + [TYPE.ALL]
