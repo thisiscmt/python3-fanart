@@ -68,8 +68,8 @@ class Movie(ResourceItem):
     WS = fanart.WS.MOVIE
 
     @Immutable.mutablemethod
-    def __init__(self, name, imdbid, tmdbid, arts, logos, discs, posters, backgrounds, hdlogos, hdarts,
-                 banners, thumbs):
+    def __init__(self, name, imdbid, tmdbid, arts, logos, discs, posters,
+                 backgrounds, hdlogos, hdarts, banners, thumbs):
         self.name = name
         self.imdbid = imdbid
         self.tmdbid = tmdbid
