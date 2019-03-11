@@ -1,5 +1,5 @@
 pytest
 pytest-pep8
-pytest-cov
+pytest-cov==2.5.0
 httpretty
 python-coveralls
