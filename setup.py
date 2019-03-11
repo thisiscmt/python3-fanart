@@ -12,6 +12,9 @@ pkg = __import__('fanart')
 author, email = pkg.__author__.rsplit(' ', 1)
 email = email.strip('<>')
 
+maintainer, maintainer_email = pkg.__maintainer__.rsplit(' ', 1)
+maintainer_email = maintainer_email.strip('<>')
+
 version = pkg.__version__
 classifiers = pkg.__classifiers__
 
@@ -30,8 +33,8 @@ setup(
     author=author,
     author_email=email,
     url='http://github.com/opacam/python3-fanart',
-    maintainer=author,
-    maintainer_email=email,
+    maintainer=maintainer,
+    maintainer_email=maintainer_email,
     description=description,
     long_description=long_description,
     classifiers=classifiers,

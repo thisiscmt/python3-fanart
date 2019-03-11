@@ -1,4 +1,5 @@
 __author__ = 'Andrea De Marco <24erre@gmail.com>'
+__maintainer__ = 'Pol Canelles <canellestudi@gmail.com>'
 __version__ = '1.4.0'
 __classifiers__ = [
     'Development Status :: 5 - Production/Stable',
@@ -32,7 +33,7 @@ __license__ = """
 __docformat__ = 'restructuredtext en'
 
 __doc__ = """
-:abstract: Python interface to fanart.tv API
+:abstract: Python interface to fanart.tv API (v3)
 :version: %s
 :author: %s
 :contact: http://z4r.github.com/
