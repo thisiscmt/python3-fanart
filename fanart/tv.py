@@ -102,10 +102,10 @@ class TvShow(ResourceItem):
 
     @classmethod
     def from_dict(cls, resource):
-        assert len(resource) == 1, 'Bad Format Map'
-        name, resource = list(resource.items())[0]
+        minimal_keys = {'name', 'thetvdb_id'}
+        assert all(k in resource for k in minimal_keys), 'Bad Format Map'
         return cls(
-            name=name,
+            name=resource['name'],
             tvdbid=resource['thetvdb_id'],
             backgrounds=BackgroundItem.extract(resource),
             characters=CharacterItem.extract(resource),

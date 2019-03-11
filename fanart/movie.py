@@ -85,10 +85,10 @@ class Movie(ResourceItem):
 
     @classmethod
     def from_dict(cls, resource):
-        assert len(resource) == 1, 'Bad Format Map'
-        name, resource = list(resource.items())[0]
+        minimal_keys = {'name', 'imdb_id', 'tmdb_id'}
+        assert all(k in resource for k in minimal_keys), 'Bad Format Map'
         return cls(
-            name=name,
+            name=resource['name'],
             imdbid=resource['imdb_id'],
             tmdbid=resource['tmdb_id'],
             arts=ArtItem.extract(resource),
