@@ -6,6 +6,8 @@ __all__ = (
     'LogoItem',
     'BackgroundItem',
     'SeasonItem',
+    'SeasonPosterItem',
+    'SeasonBannerItem',
     'ThumbItem',
     'HdLogoItem',
     'HdArtItem',
