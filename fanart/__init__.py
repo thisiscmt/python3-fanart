@@ -1,6 +1,6 @@
 __author__ = 'Andrea De Marco <24erre@gmail.com>'
 __maintainer__ = 'Pol Canelles <canellestudi@gmail.com>'
-__version__ = '1.4.0'
+__version__ = '2.0.0'
 __classifiers__ = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
