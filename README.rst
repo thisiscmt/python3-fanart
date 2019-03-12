@@ -5,8 +5,9 @@ Python3 interface to fanart.tv API (v3)
 .. image:: https://api.travis-ci.org/opacam/python3-fanart.png?branch=master
    :target: http://travis-ci.org/opacam/python3-fanart
 
-.. image:: https://coveralls.io/repos/opacam/python3-fanart/badge.png?branch=master
-    :target: https://coveralls.io/r/opacam/python3-fanart
+.. image:: https://coveralls.io/repos/github/opacam/python3-fanart/badge.svg?branch=master
+   :target: https://coveralls.io/github/opacam/python3-fanart?branch=master
+
     
 .. image:: https://pypip.in/v/python3-fanart/badge.png
    :target: https://pypi.python.org/pypi/python3-fanart
