@@ -59,6 +59,7 @@ class WS(object):
     MUSIC = 'music'
     MOVIE = 'movies'
     TV = 'tv'
+    MUSIC_ALBUMS = 'music/albums'
 
 
 class TYPE(object):
